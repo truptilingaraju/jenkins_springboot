@@ -12,7 +12,7 @@ public class WelcomeRestController {
 
 	@GetMapping("/welcome/{name}")
 	public String welcome(@PathVariable("name") String name) {
-		return name+", Welcome to Ashok IT Family..!!";
+		return  " Welcome " + name;
 	}
 
 }
